@@ -5,12 +5,12 @@ public class Filme {
     public String titulo;
     public String genero;
     public int duracaoMin;
-    public int classificacao;
+    public int classificacao = 2;
 
     public Filme(){
     }
 
-    public Filme(String titulo, String genero, int duracaoMin, String classificacao) {
+    public Filme(String titulo, String genero, int duracaoMin, int classificacao) {
         this.titulo = titulo;
         this.genero = genero;
         this.duracaoMin = duracaoMin;
